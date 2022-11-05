@@ -29,8 +29,6 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 	
-	printf("%i\n", sizeof(int));
-	
 	unsigned int newId = 0;
 	if(argc == 3) {
 		char* end;
